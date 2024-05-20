@@ -13,8 +13,7 @@ int f(int n)
 
 int main()
 {
-    cout << 0 << ' ';
-    for(int i = 1; i < 10; i++)
+    for(int i = 0; i < 10; i++)
     {
         int x = f(i);
         cout << x << ' '; /// 0 1 1 2 3 5 8 13 21 34
