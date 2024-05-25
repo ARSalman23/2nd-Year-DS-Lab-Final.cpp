@@ -10,6 +10,32 @@ int f(int n)
 
     return f(n - 1) + f(n - 2);
 }
+void call(int n)
+{
+    if(n == 10) return;//1st 10 number
+    int x = f(n);
+    cout << x << ' ';
+    n++;
+    call(n);
+}
+int main()
+{
+    call(0);
+}
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+#define endl "\n"
+
+int f(int n)
+{
+    if(n == 0) return 0;
+    if(n == 1) return 1;
+
+    return f(n - 1) + f(n - 2);
+}
 
 int main()
 {
@@ -20,7 +46,7 @@ int main()
     }
 }
 
-/*
+
 #include<bits/stdc++.h>
 using namespace std;
 
