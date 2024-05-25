@@ -1,3 +1,4 @@
+//way 1
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -24,6 +25,9 @@ int main()
 }
 
 /*
+
+//way 2
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -46,6 +50,7 @@ int main()
     }
 }
 
+//way 3
 
 #include<bits/stdc++.h>
 using namespace std;
