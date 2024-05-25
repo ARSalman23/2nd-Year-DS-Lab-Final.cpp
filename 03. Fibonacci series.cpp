@@ -51,6 +51,7 @@ int main()
 }
 
 //way 3
+//// nth Fibonacci number
 
 #include<bits/stdc++.h>
 using namespace std;
